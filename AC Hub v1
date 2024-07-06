@@ -1,0 +1,118 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "AC Hub v1", HidePremium = false, IntroText = "Made By Toxic", SaveConfig = true, ConfigFolder = "AC Hub"})
+
+OrionLib:MakeNotification({
+	Name = "Welcome To AC Hub",
+	Content = "Made By Toxic",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+
+local ScriptsTab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = ScriptsTab:AddSection({
+	Name = "Admin Commands"
+})
+
+ScriptsTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+		end
+	})
+
+ScriptsTab:AddButton({
+	Name = "iv Admin v3",
+	Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/Iv%20Admin%20v3.lua'))()
+
+		end
+	})
+
+local Section = ScriptsTab:AddSection({
+	Name = "FE Fly"
+})
+
+ScriptsTab:AddButton({
+	Name = "FE Fly Gui",
+	Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Patrickxx3/FE-Fly-/main/FE%20Fly'))()
+
+		end
+})
+
+local Section = ScriptsTab:AddSection({
+	Name = "Others Scripts"
+})
+
+ScriptsTab:AddButton({
+	Name = "Ghost Script",
+	Callback = function()
+			loadstring(game:HttpGet('https://pastebin.com/raw/2jbkJhRD'))()
+
+		end
+})
+
+
+ScriptsTab:AddButton({
+	Name = "Nokia Hub",
+	Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/Nokia%20Hub.lua'))()
+
+		end
+})
+
+local Section = ScriptsTab:AddSection({
+	Name = "BrookHaven Script"
+})
+
+ScriptsTab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+
+		end
+})
+
+ScriptsTab:AddButton({
+	Name = "JulHub",
+	Callback = function()
+
+			if not isfolder("JulHub") then
+    makefolder("JulHub")
+end
+
+if not isfolder("JulHub/JulHubData") then
+    makefolder("JulHub/JulHubData")
+end
+
+if game.PlaceId == 920587237 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/AdoptMe"))()
+elseif game.PlaceId == 4924922222 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/Brookhaven"))()
+			end
+
+
+		end
+})
+
+local CreditsTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = CreditsTab:AddSection({
+	Name = "Credits"
+})
+
+CreditsTab:AddLabel("UI And Scripts Made By AC_Toxic")
+
+OrionLib:Init()
