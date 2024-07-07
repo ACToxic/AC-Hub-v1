@@ -71,8 +71,8 @@ ScriptsTab:AddButton({
 ScriptsTab:AddButton({
 	Name = "Chat Bypass",
 	Callback = function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
-		end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/MRCBV4LSB4KRS/main/Loader"))()
+  end
 })
 ScriptsTab:AddButton({
 	Name = "Nokia Hub",
