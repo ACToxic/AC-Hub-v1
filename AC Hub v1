@@ -111,13 +111,13 @@ elseif game.PlaceId == 4924922222 then
 })
 
 local Section = ScriptsTab:AddSection({
-	Name = "MM2 Script"
+	Name = "MM2 Script key is hlvipcomingsoon"
 })
 
 ScriptsTab:AddButton({
-	Name = "",
+	Name = "High Light",
 	Callback = function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
 
 		end
 })
