@@ -71,7 +71,7 @@ ScriptsTab:AddButton({
 ScriptsTab:AddButton({
 	Name = "Chat Bypass",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/MRCBV4LSB4KRS/main/Loader"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))()
   end
 })
 ScriptsTab:AddButton({
