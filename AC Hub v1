@@ -11,7 +11,7 @@ OrionLib:MakeNotification({
 
 local ScriptsTab = Window:MakeTab({
 	Name = "Scripts",
-	Icon = "rbxassetid://4370336019",
+	Icon = "rbxassetid://3944675151",
 	PremiumOnly = false
 })
 
