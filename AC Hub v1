@@ -2,9 +2,9 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "AC Hub v1", HidePremium = false, IntroText = "Made By Toxic", SaveConfig = true, ConfigFolder = "AC Hub"})
 
 OrionLib:MakeNotification({
-	Name = "Welcome To AC Hub",
+	Name = "Welcome To AC Hub.",
 	Content = "Made By Toxic",
-	Image = "rbxassetid://4483345998",
+	Image = "rbxassetid://3944670656",
 	Time = 10
 })
 
@@ -124,7 +124,7 @@ ScriptsTab:AddButton({
 
 local CreditsTab = Window:MakeTab({
 	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://3944676934",
 	PremiumOnly = false
 })
 
